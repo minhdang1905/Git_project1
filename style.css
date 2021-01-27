@@ -1,0 +1,147 @@
+*{
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+/*vi tri
+kich thuoc 
+mau sac 
+kieu dang*/
+
+/*tu ngoai vao trong
+tu tren xuong duoi
+tu tong quan den chi tiet*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav{
+   color: #fff;
+   display: inline-block;
+    
+}
+#header{
+height: 46px;
+background-color: #000;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+}
+#nav .subnav a{
+    color: #000;
+    padding: 4px 14px;
+    line-height: 38px;
+    width: auto;
+    height: auto;
+}
+
+#nav .subnav li:hover a,
+#nav >li:hover >a {
+    color: #000;
+    background-color: #ccc;
+}
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav > li{
+display: inline-block;
+
+}
+#nav .subnav{
+    list-style: none;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .subnav{
+    display: none;
+    min-width: 160px;
+    position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+}
+    #nav li{
+        position: relative;
+    }        
+#nav li a{
+  
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+    
+}
+
+#header .search-btn:hover{
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .search-btn{
+ float: right;
+ line-height: 46px;
+ padding: 0 14px;
+}
+#header  .search-icon{
+    color: #fff;
+}
+
+
+#slider{
+ margin-top: 46px;
+ padding-top: 50%;
+ background: url(../img/chicago.jpg);
+ background-repeat: no-repeat;
+ background-size:   cover;
+background-position: top center;
+}
+#slider .text-content{
+position:absolute;
+color: #fff;
+bottom: 57px;
+left: 50%;
+transform: translate(-50%);
+text-align: center;
+}
+#slider .text-heading{
+font-weight: 500;
+font-size: 24px;
+}
+#slider .text-descreption{
+font-size: 15px;
+margin-top: 25px;
+}
+
+#content{
+    min-height: 1000px;
+    
+    }
+    #content .content-section{
+        width: 800px;
+        padding: 64px 0 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content .section-heading{
+        font-size: 30px;
+    }
+    #content .section-slogan{
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    #content .section-heading,
+    #content .section-slogan{
+        text-align: center;
+    }
+    #content .about{
+        font-size: 15px;
+        
+    }
+#footer{
+
+}
+#main{
+
+}
